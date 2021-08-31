@@ -1,9 +1,11 @@
 # Misc projects in JavaScript
 
-| Project                            | Topic(s) |
-| ---------------------------------- | -------- |
-| [BackpackPacker](./BackpackPacker) | Events   |
-| [Grid](./Grid)                     | Events   |
+| Project                                    | Topic(s)              |
+| ------------------------------------------ | --------------------- |
+| [BackpackPacker](./BackpackPacker)         | Events                |
+| [Clock](./Clock)                           | Changing DOM elements |
+| [Grid](./Grid)                             | Events                |
+| [Typing Speed Tester](./TypingSpeedTester) | Events                |
 
 ---
 
