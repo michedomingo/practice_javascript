@@ -9,8 +9,8 @@ import backpackObjectArray from './components/data.js';
  * Add event listener to the lid-toggle button.
  */
 const lidToggle = function (event, button, newArg) {
-  console.log(event);
-  console.log(newArg);
+  //   console.log(event);
+  //   console.log(newArg);
 
   // Find the current backpack object in backpackObjectArray
   let backpackObject = backpackObjectArray.find(
@@ -108,7 +108,7 @@ const backpackList = backpackObjectArray.map((backpack) => {
   `;
 
   let strapLengths = backpackArticle.querySelectorAll('.backpack__strap');
-  console.log('STRAP LENGTHS', strapLengths);
+  //   console.log('STRAP LENGTHS', strapLengths);
   newStrapLength(strapLengths);
 
   let button = backpackArticle.querySelector('.lid-toggle');
@@ -128,3 +128,20 @@ const main = document.querySelector('.maincontent');
 backpackList.forEach((backpack) => {
   main.append(backpack);
 });
+
+let type7 = typeof 7;
+console.log(`typeof 7 is: ${type7}`);
+let typeDog = typeof 'dog';
+console.log(`typeof 'dog' is: ${typeDog}`);
+let typeObj = typeof {};
+console.log(`typeof {} is: ${typeObj}`);
+let typeArray = typeof [];
+console.log(`typeof [] is: ${typeArray}`);
+let typeMain = typeof main;
+console.log(`typeof main is: ${typeMain}`);
+let typeBackpackList = typeof backpackList;
+console.log(`typeof backpackList is: ${typeBackpackList}`);
+let typeNewStrapLength = typeof newStrapLength;
+console.log(`typeof newStrapLength is: ${typeNewStrapLength}`);
+let typeLidToggle = typeof lidToggle;
+console.log(`typeof lidToggle is: ${typeLidToggle}`);
